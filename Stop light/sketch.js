@@ -18,17 +18,17 @@ fill(fill2);
 fill(fill3);
 	ellipse3 = ellipse(windowWidth / 2, windowHeight / 2 + 200, 200, 200);
 
-	if(mouseY >= windowWidth / 1.5){
+	if(mouseY >= windowHeight / 1.5){
 	fill1 = "white";
 		fill2 = 'white';
 		fill3 = 'green';
 	}
-	else if (mouseY >= windowWidth/3){
+	else if (mouseY >= windowHeight/3){
 	fill1 = "white";
 		fill2 = 'yellow';
 		fill3 = 'white';
 	}
-	else if (mouseY >= windowWidth/5){
+	else if (mouseY >= windowHeight/5){
 	fill1 = "red";
 		fill2 = 'white';
 		fill3 = 'white';
